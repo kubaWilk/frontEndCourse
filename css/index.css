@@ -1,0 +1,96 @@
+body{
+    background-color: #ededed;
+    font-family: 'Roboto', sans-serif;
+    color: #707070;
+}
+
+.clr {
+    clear:both;
+}
+
+.button{
+    background: #3d9aff;
+    border-radius: 8px;
+    color:#FFF;
+    font-size:12px;
+}
+
+.app{
+    border: 1px #979797 solid;
+    width: 598px;
+    margin: 100px auto;
+    box-shadow: 0 0 24px 0;
+    background-color:#FFF;
+}
+
+.app header{
+    background-color:#3d9aff;
+    width: 100%;
+    display:inline-block;
+}
+
+.app header h1{
+    margin: 20px 30px; 
+    font-size:48px;
+    font-weight:400;
+    color: #FFF;
+}
+
+.app .toDoList p{
+    padding-left: 25px;
+}
+.app .toDoList ul{
+    list-style: none;
+}
+.app .toDoList li{
+    width:95%;
+    border-bottom: 1px #000 dotted;
+    padding: 7px 0;
+
+}
+
+.app .toDoList li:last-child{
+    border-bottom: none;
+}
+
+li::before {
+    content: "• ";
+    color: #3d9aff; /*or whatever color you prefer */
+  }
+
+.app .toDoList a{
+    float:right;
+    position:relative;
+    bottom: 2px;
+    text-decoration: none;
+    padding: 5px 15px;
+}
+
+.app #mainFooter{
+    width: 100%;
+    margin: 20px 29px;
+}
+
+.app #mainFooter .text{
+    border: 1px #979797 solid;
+    border-right: none;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    font-size: 16px;
+    box-shadow:none;
+    width: 70%;
+    height: 31px;
+    margin-right:0;
+}
+.app #mainFooter .text::placeholder{
+    padding: 10px;
+}
+
+.app #mainFooter .button{
+    position:relative;
+    right: 10px;
+    bottom: 2px;
+    margin-left: 0;
+    padding: 9px 50px;
+    border: 1px #979797 solid;
+}
